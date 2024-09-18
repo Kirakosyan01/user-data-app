@@ -1,0 +1,60 @@
+.user__data{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 70px;
+}
+.buttons__div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.create__button{
+    padding: 13px 18px;
+    margin-right: 15px;
+    border: none;
+    cursor: pointer;
+    background-color: #37655B;
+    color: #fff;
+    border-radius: 4px;
+    transition: all 0.2s;
+    &:hover{
+        transform: scale(1.2) translateY(-5px);
+    }
+    &:active{
+        transform: scale(1);
+    }
+}
+.delete_all__button{
+    padding: 13px 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #37655B;
+    border-radius: 4px;
+    color: #fff;
+    transition: all 0.2s;
+    &:hover{
+        transform: scale(1.2) translateY(-5px);
+    }
+    &:active{
+        transform: scale(1);
+    }
+}
+.cancel__button{
+    padding: 13px 18px;
+    margin-right: 15px;
+    border: none;
+    cursor: pointer;
+    background-color: #37655B;
+    color: #fff;
+    border-radius: 4px;
+    transition: all 0.2s;
+    &:hover{
+        transform: scale(1.2) translateY(-5px);
+    }
+    &:active{
+        transform: scale(1);
+    }
+}

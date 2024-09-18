@@ -1,0 +1,44 @@
+.edit__input {
+  width: 250px;
+  margin-top: 4px;
+  height: 25px;
+  border-radius: 3px;
+  border: 1px solid rgb(221, 215, 213);
+}
+.action__button {
+  padding: 8px 8px;
+  margin-right: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: #37655b;
+  color: #fff;
+  border-radius: 3px;
+  transition: all 0.2s;
+  &:hover {
+    transform: scale(1.2);
+  }
+  &:active {
+    transform: scale(1);
+  }
+}
+
+table{
+    width: 1850px;
+    border: 1px solid #37655B;
+    border-radius: 3px;
+    padding: 4px;
+    th{
+        padding: 10px;
+        background-color: #37655B;
+        color: #fff;
+    }
+    tr{
+        border: 1px solid #000;
+    }
+    td{
+        border: 1px dotted #37655B;
+    }
+  }
+.action__buttons_td{
+    width: 130px;
+}
